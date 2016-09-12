@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Issuance of books</title>
+</head>
+<body>
+    <div>
+        <h3>Issuance of books</h3>
+        <form method="post" action="">
+            <input type="hidden" value="@ViewBag.BookId" name="BookId" />
+            <table>
+                <tr>
+                    <td><p>Enter your Name </p></td>
+                    <td><input type="text" name="ReaderName" /> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Enter your e-mail:</p></td>
+                    <td>
+                        <input type="text" name="Email"/>
+                    </td>
+                </tr>
+
+                <tr><td><input type="submit" value="Take" /> </td><td></td></tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
